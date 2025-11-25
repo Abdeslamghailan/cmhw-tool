@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import BlockedEmails from './components/BlockedEmails';
 import ConsumptionReport from './components/ConsumptionReport';
 import SessionGrouping from './components/SessionGrouping';
+import PlanGenerator from './components/PlanGenerator';
 import { ThemeProvider } from './hooks/useTheme';
 import './styles/App.css';
 
@@ -17,6 +18,8 @@ function App() {
         return <ConsumptionReport />;
       case 'sessions':
         return <SessionGrouping />;
+      case 'plan':
+        return <PlanGenerator />;
       default:
         return <BlockedEmails />;
     }

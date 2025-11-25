@@ -5,7 +5,8 @@ const Navbar = ({ activeTab, onTabChange }) => {
   const tabs = [
     { id: 'emails', label: 'Blocked Emails Analyzer' },
     { id: 'consumption', label: 'Consumption Dashboard' },
-    { id: 'sessions', label: 'Recheck Blocked Emails' }
+    { id: 'sessions', label: 'Recheck Blocked Emails' },
+    { id: 'plan', label: 'Plan Generator' }
   ];
 
   return (
