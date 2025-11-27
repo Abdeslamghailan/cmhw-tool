@@ -33,21 +33,52 @@ try {
 // CMH configurations
 const cmhConfigs = {
   cmh1: {
-    BOT_TOKEN: "8264293111:AAF_WCJJLabD5S3alNmgNvQOuGu3zukzoRs",
-    CHAT_ID: "8304177747",
-    name: "test"
+    BOT_TOKEN: "8121555522:AAFrzbsR7u3R69o2ZwSc2MjpjANIfZaXyfg",
+    CHAT_ID: "-1002425470558",
+    name: "CMH 1"
   },
   cmh2: {
-    BOT_TOKEN: "8529644027:AAEVaCDf4EMOKgu0oalJkD94tEISKsa3NzY",
-    CHAT_ID: "8304177747",
+    BOT_TOKEN: "7784467036:AAGwdwQ0hYsZbmnZy3XqYpQAyHYebxtxoxA",
+    CHAT_ID: "-1002458231848",
     name: "CMH 2"
   },
   cmh3: {
-    BOT_TOKEN: "8229900745:AAH4j_U_10-pWaC-gyeQOa0WIFBrv36pRY8",
-    CHAT_ID: "8304177747",
+    BOT_TOKEN: "7649122558:AAE1i0IHdHvkbzZ-eE96lnSmX5MYUhQO_AY",
+    CHAT_ID: "-1002497192321",
     name: "CMH 3"
+  },
+  cmh5: {
+    BOT_TOKEN: "7813055110:AAFSRItx1hI7AqXpsxaH8ri6o9a_M_j7df0",
+    CHAT_ID: "-4592925120",
+    name: "CMH 5"
+  },
+  cmh6: {
+    BOT_TOKEN: "8057870747:AAHDOyy87W3Giucy2vP1rYinQHQFAmS2mSQ",
+    CHAT_ID: "-1002391979095",
+    name: "CMH 6"
+  },
+  cmh8: {
+    BOT_TOKEN: "7097067993:AAGoXpExWDs7ccveqOsfoW8fsbzmXaJWT2M",
+    CHAT_ID: "-1002273044099",
+    name: "CMH 8"
+  },
+  cmh9: {
+    BOT_TOKEN: "7111890715:AAEWMWHQaF7jhvpV7QQBTXOc6KbAg1bWQCs",
+    CHAT_ID: "-1002438857483",
+    name: "CMH 9"
+  },
+  cmh12: {
+    BOT_TOKEN: "7798410444:AAE5jRUbMcXQ-ndZp8OUq14Vc27LeR_0BNQ",
+    CHAT_ID: "-1002490055319",
+    name: "CMH 12"
+  },
+  cmh16: {
+    BOT_TOKEN: "8253193081:AAF2o9R62TFks3D_d3zrUpcZa473M36ZDrs",
+    CHAT_ID: "-1002948726953",
+    name: "CMH 16"
   }
 };
+
 
 // Allowed titles for each CMH
 const allowedTitles = ['IP', 'IP2', 'OFFER AUTO', 'OFFER BY REQUEST'];
