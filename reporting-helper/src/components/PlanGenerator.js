@@ -424,10 +424,6 @@ const PlanGenerator = () => {
           cols="80"
         />
       </div>
-
-      <footer className="generator-footer">
-        Made by: Abdelali Ketlas
-      </footer>
     </div>
   );
 };
